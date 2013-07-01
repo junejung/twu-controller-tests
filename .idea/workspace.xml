@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="500826dc-5a91-4acf-905c-26698ef1a2c7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/thoughtworks/sample/webapp/HomeController.java" afterPath="$PROJECT_DIR$/src/com/thoughtworks/sample/webapp/HomeController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/thoughtworks/sample/webapp/HomeControllerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/twu-controller-tests/WEB-INF/classes/com/thoughtworks/sample/webapp/HomeController.class" afterPath="$PROJECT_DIR$/target/twu-controller-tests/WEB-INF/classes/com/thoughtworks/sample/webapp/HomeController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/twu-controller-tests.war" afterPath="$PROJECT_DIR$/target/twu-controller-tests.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twu-controller-tests.iml" afterPath="$PROJECT_DIR$/twu-controller-tests.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="twu-controller-tests.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,13 +26,16 @@
     <file path="/home.jsp" changelist="500826dc-5a91-4acf-905c-26698ef1a2c7" time="1372699030868" ignored="false" />
     <file path="/HomeController.java" changelist="500826dc-5a91-4acf-905c-26698ef1a2c7" time="1372699066722" ignored="false" />
     <file path="/spring-config.xml" changelist="500826dc-5a91-4acf-905c-26698ef1a2c7" time="1372696002316" ignored="false" />
-    <file path="/fragment.java" changelist="500826dc-5a91-4acf-905c-26698ef1a2c7" time="1372694883817" ignored="false" />
+    <file path="/fragment.java" changelist="500826dc-5a91-4acf-905c-26698ef1a2c7" time="1372699241262" ignored="false" />
     <file path="/a.dummy" changelist="500826dc-5a91-4acf-905c-26698ef1a2c7" time="1372694799377" ignored="false" />
     <file path="/TodoService.java" changelist="500826dc-5a91-4acf-905c-26698ef1a2c7" time="1372696814239" ignored="false" />
     <file path="/ServiceResult.java" changelist="500826dc-5a91-4acf-905c-26698ef1a2c7" time="1372694965018" ignored="false" />
     <file path="/errors.jsp" changelist="500826dc-5a91-4acf-905c-26698ef1a2c7" time="1372695637182" ignored="false" />
     <file path="/Todo.java" changelist="500826dc-5a91-4acf-905c-26698ef1a2c7" time="1372697153538" ignored="false" />
     <file path="/Dummy.txt" changelist="500826dc-5a91-4acf-905c-26698ef1a2c7" time="1372696688955" ignored="false" />
+    <file path="/HomeControllerTest.groovy" changelist="500826dc-5a91-4acf-905c-26698ef1a2c7" time="1372699218333" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/thoughtworks/sample/webapp/HomeControllerTest.groovy" changelist="500826dc-5a91-4acf-905c-26698ef1a2c7" time="1372699228452" ignored="false" />
+    <file path="/HomeControllerTest.java" changelist="500826dc-5a91-4acf-905c-26698ef1a2c7" time="1372699853610" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,11 +107,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeController.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="HomeController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/sample/webapp/HomeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="154" selection-end="154" vertical-scroll-proportion="0.13129103">
-              <folding />
+            <state line="15" column="20" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeControllerTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/sample/webapp/HomeControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="19" selection-start="1003" selection-end="1003" vertical-scroll-proportion="-0.5754923">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1105#1111#0" expanded="true" />
+                <element signature="e#2208#2224#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -175,15 +197,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spring-mvc-3.2.xsd" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/spring-webmvc.jar!/org/springframework/web/servlet/config/spring-mvc-3.2.xsd">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="407" column="4" selection-start="19307" selection-end="19307" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -212,6 +225,8 @@
         <option value="$PROJECT_DIR$/webapp/WEB-INF/views/home.jsp" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/sample/webapp/Todo.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/sample/webapp/HomeController.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/sample/webapp/HomeControllerTest.groovy" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/sample/webapp/HomeControllerTest.java" />
       </list>
     </option>
   </component>
@@ -375,6 +390,7 @@
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
@@ -385,6 +401,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
@@ -392,6 +409,12 @@
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.thoughtworks.sample.webapp" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.thoughtworks.sample.webapp" />
     </key>
@@ -400,7 +423,7 @@
       <recent name="$PROJECT_DIR$/webapp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SampleWebApp">
+  <component name="RunManager" selected="JUnit.HomeControllerTest">
     <configuration default="false" name="SampleWebApp" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -419,6 +442,62 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="twu-controller-tests" />
       <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="HomeControllerTest.shouldRenderHomeView" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.thoughtworks.sample.webapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="twu-controller-tests" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.thoughtworks.sample.webapp" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.sample.webapp.HomeControllerTest" />
+      <option name="METHOD_NAME" value="shouldRenderHomeView" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="HomeControllerTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.thoughtworks.sample.webapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="twu-controller-tests" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.thoughtworks.sample.webapp" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.sample.webapp.HomeControllerTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -514,13 +593,17 @@
       <patterns />
       <method />
     </configuration>
-    <list size="2">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JUnit.AppTests" />
       <item index="1" class="java.lang.String" itemvalue="Application.SampleWebApp" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.HomeControllerTest.shouldRenderHomeView" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.HomeControllerTest" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.SampleWebApp" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.HomeControllerTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.HomeControllerTest.shouldRenderHomeView" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SampleWebApp" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -569,7 +652,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962963" sideWeight="0.28627968" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32849604" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -578,7 +661,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962963" sideWeight="0.38258576" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3298153" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3298153" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -744,8 +827,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/sample/webapp/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="154" selection-end="154" vertical-scroll-proportion="0.13129103">
-          <folding />
+        <state line="15" column="20" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/sample/webapp/HomeControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="19" selection-start="1003" selection-end="1003" vertical-scroll-proportion="-0.5754923">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1105#1111#0" expanded="true" />
+            <element signature="e#2208#2224#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
