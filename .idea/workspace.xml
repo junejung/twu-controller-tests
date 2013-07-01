@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="500826dc-5a91-4acf-905c-26698ef1a2c7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/twu-controller-tests/WEB-INF/classes/com/thoughtworks/sample/webapp/HomeController.class" afterPath="$PROJECT_DIR$/target/twu-controller-tests/WEB-INF/classes/com/thoughtworks/sample/webapp/HomeController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/twu-controller-tests/WEB-INF/classes/com/thoughtworks/sample/webapp/Todo.class" afterPath="$PROJECT_DIR$/target/twu-controller-tests/WEB-INF/classes/com/thoughtworks/sample/webapp/Todo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/twu-controller-tests/WEB-INF/classes/com/thoughtworks/sample/webapp/TodoService.class" afterPath="$PROJECT_DIR$/target/twu-controller-tests/WEB-INF/classes/com/thoughtworks/sample/webapp/TodoService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/twu-controller-tests.war" afterPath="$PROJECT_DIR$/target/twu-controller-tests.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/thoughtworks/sample/webapp/HomeController.java" afterPath="$PROJECT_DIR$/src/com/thoughtworks/sample/webapp/HomeController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/thoughtworks/sample/webapp/Todo.java" afterPath="$PROJECT_DIR$/src/com/thoughtworks/sample/webapp/Todo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/thoughtworks/sample/webapp/TodoService.java" afterPath="$PROJECT_DIR$/src/com/thoughtworks/sample/webapp/TodoService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/twu-controller-tests/WEB-INF/views/home.jsp" afterPath="$PROJECT_DIR$/target/twu-controller-tests/WEB-INF/views/home.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/WEB-INF/views/home.jsp" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/home.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="twu-controller-tests.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -114,10 +103,8 @@
       <file leaf-file-name="HomeController.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/sample/webapp/HomeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="29" selection-start="1144" selection-end="1144" vertical-scroll-proportion="0.4420131">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="4" column="0" selection-start="154" selection-end="154" vertical-scroll-proportion="0.13129103">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -757,10 +744,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/sample/webapp/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="29" selection-start="1144" selection-end="1144" vertical-scroll-proportion="0.4420131">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="4" column="0" selection-start="154" selection-end="154" vertical-scroll-proportion="0.13129103">
+          <folding />
         </state>
       </provider>
     </entry>
