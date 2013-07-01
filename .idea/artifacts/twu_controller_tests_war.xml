@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="twu-controller-tests:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="twu-controller-tests.war">
+      <element id="artifact" artifact-name="twu-controller-tests:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="project" name="spring-3.2.2" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

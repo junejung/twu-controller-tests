@@ -1,0 +1,36 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/spring-test-3.2.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-xml-8.1.9.v20130131.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-security-8.1.9.v20130131.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-continuation-8.1.9.v20130131.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-webapp-8.1.9.v20130131.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-aspects-3.2.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-util-8.1.9.v20130131.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-context-support-3.2.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-context-3.2.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-instrument-tomcat-3.2.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-server-8.1.9.v20130131.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-servlet-8.1.9.v20130131.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-instrument-3.2.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-core-3.2.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-beans-3.2.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-web.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/aopalliance-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-http-8.1.9.v20130131.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-jms-3.2.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-webmvc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-expression-3.2.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-aop-3.2.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-jdbc-3.2.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-tx-3.2.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-oxm-3.2.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-orm-3.2.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-io-8.1.9.v20130131.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
