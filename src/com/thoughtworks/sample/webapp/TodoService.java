@@ -15,4 +15,10 @@ public class TodoService {
         }
         return new ServiceResult<List<Todo>>(new HashMap<String, String>(), todos);
     }
+
+    public ServiceResult<List<Todo>> createTodo(Todo todo) {
+        List<Todo> todos = getTodos().getResult();
+        todos.add(todo);
+        return new ServiceResult<List<Todo>>(new HashMap<String, String>(), todos);
+    }
 }
