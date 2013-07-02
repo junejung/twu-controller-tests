@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="500826dc-5a91-4acf-905c-26698ef1a2c7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/thoughtworks/sample/webapp/HomeControllerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/twu-controller-tests/WEB-INF/classes/com/thoughtworks/sample/webapp/HomeController.class" afterPath="$PROJECT_DIR$/target/twu-controller-tests/WEB-INF/classes/com/thoughtworks/sample/webapp/HomeController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/twu-controller-tests.war" afterPath="$PROJECT_DIR$/target/twu-controller-tests.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twu-controller-tests.iml" afterPath="$PROJECT_DIR$/twu-controller-tests.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/thoughtworks/sample/webapp/SlowResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/thoughtworks/sample/webapp/SlowService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="twu-controller-tests.iws" />
@@ -26,7 +24,7 @@
     <file path="/home.jsp" changelist="500826dc-5a91-4acf-905c-26698ef1a2c7" time="1372699030868" ignored="false" />
     <file path="/HomeController.java" changelist="500826dc-5a91-4acf-905c-26698ef1a2c7" time="1372699066722" ignored="false" />
     <file path="/spring-config.xml" changelist="500826dc-5a91-4acf-905c-26698ef1a2c7" time="1372696002316" ignored="false" />
-    <file path="/fragment.java" changelist="500826dc-5a91-4acf-905c-26698ef1a2c7" time="1372699241262" ignored="false" />
+    <file path="/fragment.java" changelist="500826dc-5a91-4acf-905c-26698ef1a2c7" time="1372727713235" ignored="false" />
     <file path="/a.dummy" changelist="500826dc-5a91-4acf-905c-26698ef1a2c7" time="1372694799377" ignored="false" />
     <file path="/TodoService.java" changelist="500826dc-5a91-4acf-905c-26698ef1a2c7" time="1372696814239" ignored="false" />
     <file path="/ServiceResult.java" changelist="500826dc-5a91-4acf-905c-26698ef1a2c7" time="1372694965018" ignored="false" />
@@ -36,6 +34,8 @@
     <file path="/HomeControllerTest.groovy" changelist="500826dc-5a91-4acf-905c-26698ef1a2c7" time="1372699218333" ignored="false" />
     <file path="$PROJECT_DIR$/src/com/thoughtworks/sample/webapp/HomeControllerTest.groovy" changelist="500826dc-5a91-4acf-905c-26698ef1a2c7" time="1372699228452" ignored="false" />
     <file path="/HomeControllerTest.java" changelist="500826dc-5a91-4acf-905c-26698ef1a2c7" time="1372699853610" ignored="false" />
+    <file path="/SlowService.java" changelist="500826dc-5a91-4acf-905c-26698ef1a2c7" time="1372727780662" ignored="false" />
+    <file path="/SlowResult.java" changelist="500826dc-5a91-4acf-905c-26698ef1a2c7" time="1372727732458" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,17 +96,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SampleWebApp.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/sample/webapp/SampleWebApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="18" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="HomeController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/sample/webapp/HomeController.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -118,15 +107,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeControllerTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="HomeControllerTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/sample/webapp/HomeControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="19" selection-start="1003" selection-end="1003" vertical-scroll-proportion="-0.5754923">
+            <state line="63" column="15" selection-start="1956" selection-end="1956" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1105#1111#0" expanded="true" />
                 <element signature="e#2208#2224#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SlowService.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/sample/webapp/SlowService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="25" selection-start="66" selection-end="66" vertical-scroll-proportion="0.065645516">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SlowResult.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/sample/webapp/SlowResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="23" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -143,20 +150,11 @@
       <file leaf-file-name="TodoService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/sample/webapp/TodoService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="25" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0">
+            <state line="10" column="0" selection-start="207" selection-end="498" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#302#308#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServiceResult.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/sample/webapp/ServiceResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="33" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -227,6 +225,8 @@
         <option value="$PROJECT_DIR$/src/com/thoughtworks/sample/webapp/HomeController.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/sample/webapp/HomeControllerTest.groovy" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/sample/webapp/HomeControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/sample/webapp/SlowResult.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/sample/webapp/SlowService.java" />
       </list>
     </option>
   </component>
@@ -661,7 +661,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962963" sideWeight="0.38258576" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3298153" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3298153" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -794,16 +794,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/sample/webapp/TodoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="25" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#302#308#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/spring-webmvc.jar!/META-INF/spring-form.tld">
       <provider selected="true" editor-type-id="text-editor">
         <state line="195" column="4" selection-start="6377" selection-end="6377" vertical-scroll-proportion="0.0">
@@ -834,14 +824,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-webmvc.jar!/org/springframework/web/servlet/ModelAndView.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="174" selection-end="174" vertical-scroll-proportion="0.1789976">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/sample/webapp/HomeControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="19" selection-start="1003" selection-end="1003" vertical-scroll-proportion="-0.5754923">
+        <state line="63" column="15" selection-start="1956" selection-end="1956" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1105#1111#0" expanded="true" />
             <element signature="e#2208#2224#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/sample/webapp/TodoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="207" selection-end="498" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#302#308#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/sample/webapp/SlowResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="23" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/sample/webapp/SlowService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="25" selection-start="66" selection-end="66" vertical-scroll-proportion="0.065645516">
+          <folding />
         </state>
       </provider>
     </entry>
